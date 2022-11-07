@@ -13,12 +13,6 @@ public class FootstepSound : MonoBehaviour
         footstepSource = gameObject.GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void Footstep()
     {
         int sampleIndex;
